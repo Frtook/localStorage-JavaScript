@@ -1,0 +1,55 @@
+.color{
+  padding: 0 50px;
+  background-color: #eee;
+  width: 50%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+span{
+  width: 50px;
+  height: 50px;
+}
+.color .red{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.color .red:hover{
+  background-color: rgba(255, 0, 0, 1);
+  transition: 0.3s;
+}
+.color .blue{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.color .blue:hover{
+  background-color: rgba(0, 0, 255, 1);
+  transition: 0.3s;
+}
+.color .green{
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.color .green:hover{
+  background-color: rgba(0, 255, 0, 1);
+  transition: 0.3s;
+}
+.color .gray{
+  background-color: rgba(127, 127, 127, 0.5);
+}
+
+.color .gray:hover{
+  background-color: rgba(127, 127, 127, 1);
+  transition: 0.3s;
+}
+
+.view{
+  background-color: red;
+  width: 80%;
+  height: 300px;
+  margin: 50px auto;
+  transition: 0.3s;
+}

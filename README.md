@@ -1,1 +1,1 @@
-[visit](https://github.com/Frtook/localStorage-JavaScript)
+[visit](https://frtook.github.io/localStorage-JavaScript)
